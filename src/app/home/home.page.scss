@@ -71,3 +71,21 @@ body::-webkit-scrollbar {
   background-color: white;
   margin: auto;
 }
+button {
+  background-color: #135d54;
+  border: solid 1px #fff;
+  color: #fff;
+  text-align: center;
+  size: "3";
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  padding: 5px;
+}
+#grid{
+  display: grid;
+  grid-row-gap : 15px;
+  grid-column-gap : 15px;
+  margin: 2vh 38%; // for mobile margin: 10vh 18%;
+}
